@@ -1,0 +1,3 @@
+The best classifier is: KNeighborsClassifier(n_neighbors=1)
+Its accuracy is: 0.9983324634655532
+Its parameters are: {'n_neighbors': 1}

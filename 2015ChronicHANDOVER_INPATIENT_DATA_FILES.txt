@@ -1,0 +1,175 @@
+
+
+
+This file explains all of the variables in the quantitative survey dataset that accompanies: Humphries C, Jaganathan S, Panniyammakal J, Singh S, Dorairaj P, et al. Discharge communication for chronic disease patients in three hospitals in India.
+
+
+dataset: 2015_inpatient_survey_data.xlsx
+
+
+**survey part 1 - demographic information collected within 24 hours of patients being admitted**
+
+PID = patient identification number
+
+hos_site = hospital site patient was recruited from (1=site 1, 2=site 2, 3= site 3)
+
+sex_1 = patient sex (1=male, 2=female) 
+
+age_group_2 = patient age group (1=18-49 yrs, 2=50-69 yrs, 3 =70 yrs or more)
+
+edu_level_3 = patient education level (1=illiterate, 2=literate partial primary school education, 3=literate with complete primary school education, 4=Complete secondary school education, 5=Complete higher school/vocational studies, 6=university graduate or above)
+
+employ_4 = patient employment status (1=employed, 2=unemployed, 3=retired, .=missing data) 
+
+reach_hos_5 = time taken for patient to reach hospital (1=<1 hour, 2=1-4 hours, 3=>4 hours, .=missing data) 
+
+diabetes_6 = patient has diabetes (1=yes, 2=no)
+
+hypertens_7 = patient has hypertension (1=yes, 2=no) 
+
+cvd_8 = patient has cardiovascular disease (1=yes, 2=no)
+
+chron_res_9 = patient has chronic respiratory disease (1=yes, 2=no)
+
+
+
+**survey part 2 - discharge communication and follow-up plan information collected from patients at the point of hospital discharge**
+
+cond_expl_10 = patient had their condition/s explained to them by a healthcare provider during admission (1=yes, 2=no, 3=unsure, .=missing data)
+
+discharge_care_advice_11a = patient was unsure of what advice post-discharge care advice was provided to them (1=yes, 2=no)
+
+discharge_care_advice_11b = patient recalled being instructed to go for further tests (1=yes, 2=no, .=missing data)
+
+discharge_advice_11c = patient recalled being given ongoing management information (1=yes, 2=no, .=missing data)
+
+discharge_advice_11d = patient recalled being given medication prescription and medication review information (1=yes, 2=no, .=missing data)
+
+discharge_advice_11e = patient recalled being given lifestyle advice (1=yes, 2=no, .=missing data)
+
+discharge_advice_11f = patient recalled being instructed to go for physiotherapy (1=yes, 2=no, .=missing data)
+
+discharge_advice_11g = patient recalled being instructed to take rest (1=yes, 2=no, .=missing data)
+
+discharge_advice_11h = patient recalled being referred to another healthcare provider (1=yes, 2=no, .=missing data)
+
+discharge_advice_11i = patient recalled not being given and post-discharge care advice (1=yes, 2=no, .=missing data)
+
+followup_12a = patient was unsure of what follow-up instructions were provided to them (1=yes, 2=no, .=missing data)
+
+followup_12b = patient recalled being instructed to visit the outpatient department of the same hospital for follow-up (1=yes, 2=no, .=missing data)
+
+follow_12c = patient recalled being instructed to visit outpatient department of another hospital/specific doctor (1=yes, 2=no, .=missing data)
+
+understand_cond_13a = patient/carer had a good understanding of almost all important health condition and post-discharge care information (1=yes, 2=no, .=missing data)
+
+understand_cond_13b = patient/carer had a broadly correct understanding of important health condition and post-discharge care information (1=yes, 2=no, .=missing data)
+
+understand_cond_13c = patient/carer had only a basic understanding of some important health condition and post-discharge care information (1=yes, 2=no, .=missing data)
+
+understand_cond_13d = patient/carer had very little/no understanding of any important health condition and post-discharge care information (1=yes, 2=no, .=missing data)
+
+checkup_plan_14a = patient only planned to go for a checkup when they are sick again (1=yes, 2=no, .=missing data)
+
+checkup_plan_14b = patient planned to go to the same hospital outpatient department for checkup (1=yes, 2=no, .=missing data)
+
+checkup_plan_14c = patient planned to go to a government primary care centre for checkup (1=yes, 2=no, .=missing data)
+
+checkup_plan_14d = patient planned to go to a local private doctor or nurse for checkup (1=yes, 2=no, .=missing data)
+
+checkup_plan_14e = patient planned to go to another government hospital for checkup (1=yes, 2=no, .=missing data)
+
+checkup_plan_14f = patient planned to go to a private hospital or nursing home for checkup (1=yes, 2=no, .=missing data)
+
+checkup_plan_14g = patient planned to go to a traditional healer for checkup, such as ayurveda, yoga, unani, siddha & homeopathy (1=yes, 2=no, .=missing data)
+
+checkup_plan_14h = patient planned to go to a physiotherapist for checkup (1=yes, 2=no, .=missing data)
+
+how_explain_15a = patient asked the hospital doctor to explain to their child/spouse/carer what was done for them at the hospital so they could explain it to the next doctor (1=yes, 2=no, .=missing data)
+
+how_explain_15b = patient asked the hospital doctor to explain to them directly what was done for them at the hospital so they could explain it to the next doctor (1=yes, 2=no, .=missing data)
+
+how_explain_15c = patient was given a note/discharge summary to take back to their local/family doctor to help explain what was done for them at the hospital (1=yes, 2=no, .=missing data)
+
+how_explain_15d = patient planned to return to the same hospital where their records were stored (1=yes, 2=no, .=missing data)
+
+how_explain_15e = patient did not know how they planned to explain to the next doctor what was done for them at the hospital because they could not remember what the doctor said (1=yes, 2=no, .=missing data)
+
+discharge_doc_16 = patient received discharge document - seen by a researcher (1=yes, 2=no)
+
+unsure_import_17 = patient was unsure whether it was important to receive discharge document/s or not (attitude regarding importance of receiving a discharge document (1=yes, 2=no, .=missing data)
+
+yes_import_18a = patient thought it was important to receive discharge document/s because it helped them to understand and explain their condition/s (1=yes, 2=no, .=missing data)
+
+yes_import_18b = patient thought it was important to receive discharge document/s because it helped them to get attended to faster at their next healthcare visit (1=yes, 2=no, .=missing data)
+
+yes_import_18c = patient thought it was important to receive discharge document/s because they felt it is more professional (1=yes, 2=no, .=missing data)
+
+yes_import_18d = patient thought it was important to receive discharge document/s because they had to submit it for claiming insurance (1=yes, 2=no, .=missing data)
+
+yes_import_18e = patient thought it was important to receive discharge document/s because it would help in an emergency (1=yes, 2=no, .=missing data)
+
+yes_import_18f = patient thought it was important to receive discharge document/s becuase it was a helpful medical identification certificate (1=yes, 2=no, .=missing data)
+
+not_import_19a = patient did not think it was important to receive discharge document/s because notes get lost (1=yes, 2=no, .=missing data)
+
+not_import_19b = patient did not think it was important to receive a discharge document/s because everyone receives the same standard of care regardless (1=yes, 2=no, .=missing data)
+
+type_doc_20 = type of document given to patients at discharge (1=discharge booklet, 2=unstructured note/letter, 3=structured form/card, 4=prescription card, 5=referral letter, .=missing data)
+
+permis_see_doc_21 = patient gave researcher permission for the contents of their discharge document to be assessed (1=yes, 2=no)
+
+doc_contents_22a = discharge document contained illegible notes (1=yes, 2=no, .=missing data)
+
+doc_contents_22b = discharge document contained name of doctor/contact at the hospital (1=yes, 2=no, .=missing data)
+
+doc_contents_22c = discharge document contained date (1=yes, 2=no, .=missing data)
+
+doc_contents_22d = discharge document contained name, age and sex of patient (1=yes, 2=no, .=missing data)
+
+doc_contents_22e = discharge document contained past medical history for current condition (1=yes, 2=no, .=missing data)
+
+doc_contents_22f = discharge document contained past medical history for other conditions (1=yes, 2=no, .=missing data)
+
+doc_contents_22g = discharge document contained patient's signs, symptoms and problems when admitted (1=yes, 2=no, .=missing data)
+
+doc_contents_22h = discharge document contained tests performed during admission without results (1=yes, 2=no, .=missing data)
+
+doc_contents_22i = discharge document contained tests performed during admission with results (1=yes, 2=no, .=missing data)
+
+doc_contents_22j = discharge document contained diagnosis (1=yes, 2=no, .=missing data)
+
+doc_contents_22k = discharge document contained medication information (1=yes, 2=no, .=missing data)
+
+doc_contents_22l = discharge document contained lifestyle advice, e.g. regarding exercise/diet/tobacco/alcohol etc. (1=yes, 2=no, .=missing data)
+
+doc_contents_22m = discharge document contained follow-up instructions (1=yes, 2=no, .=missing data)
+
+
+
+**survey part 3 - patient health outcomes at 5 weeks follow-up**
+
+died_5wks = patients who had died within 5 weeks of follow-up (1=yes, 2=no, .=missing data)
+
+readmit_5wks = patients who reported having been readmitted to hospital within 5 weeks of follow-up (1=yes, 2=no, .=missing data)
+
+worse_5wks = patients who reported a deterioration in their chronic non-communicable condition/s within 5 weeks of follow-up (1=yes, 2=no, .=missing data)
+
+
+
+**survey part 4 - patient health outcomes at 18 weeks follow-up**
+
+died_18wks = patients who had died within 18 weeks of follow-up (1=yes, 2=no, .=missing data)
+
+readmit_18wks = patients who reported having been readmitted to hospital within 18 weeks of follow-up (1=yes, 2=no, .=missing data)
+
+worse_18wks = patients who reported a deterioration in their chronic non-communicable condition/s within 18 weeks of follow-up (1=yes, 2=no, .=missing data)
+
+
+
+
+
+
+
+
+
